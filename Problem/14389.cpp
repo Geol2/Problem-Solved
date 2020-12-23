@@ -1,4 +1,3 @@
-/*
 #include<cstdio>
 #include<string.h>
 #define max(a,b) (((a)>(b))?(a):(b));
@@ -64,4 +63,3 @@ int main() {
 	printf("%d", func(0,c) + answer);
 	return 0;
 }
-*/

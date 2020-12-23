@@ -1,4 +1,4 @@
-/* #include <iostream>
+#include <iostream>
 using namespace std;
 
 char board[21][21] = {};
@@ -20,4 +20,4 @@ int main() {
       TestCase++;
    }    
    return 0; 
-}*/
+}

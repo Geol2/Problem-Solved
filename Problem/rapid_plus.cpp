@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 
 int main() {
 	int num, a, b, sum;
@@ -38,4 +38,3 @@ int main()
 		cout << a + b << '\n';
 	}
 }
-*/

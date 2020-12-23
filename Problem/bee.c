@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 int main() {
 	int N, count = 1; //입력값과 지나는 칸의 개수
 	
@@ -18,4 +18,4 @@ int main() {
 	printf("%d\n", count);
 
 	return 0;
-}*/
+}

@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 
 using namespace std;
 
@@ -27,4 +27,4 @@ int main() {
 	ans %= mod;
 	cout << ans << endl;
 	return 0;
-}*/
+}
