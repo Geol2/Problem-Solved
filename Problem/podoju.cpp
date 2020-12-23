@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 
@@ -30,4 +29,4 @@ int main() {
 
 	cout << d[n] << endl;
 	return 0;
-}*/
+}

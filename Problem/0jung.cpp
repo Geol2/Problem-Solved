@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <cstdio>
 #include <map>
@@ -56,4 +55,3 @@ int main()
 	}
 	return 0;
 }
-*/

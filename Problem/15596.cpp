@@ -1,4 +1,4 @@
-include <iostream>
+#include <iostream>
 using namespace std;
 
 long long sum(vector <int> &a) {

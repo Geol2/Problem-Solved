@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 int main() {
 	FILE * fp;
 	char bba[100];
@@ -8,4 +8,4 @@ int main() {
 
 
 	return 0;
-}*/
+}

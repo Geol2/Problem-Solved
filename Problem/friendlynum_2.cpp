@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 
 using namespace std;
 
@@ -18,4 +18,4 @@ int main() {
 	cout << d[N] << endl;
 
 	return 0;
-}*/
+}
