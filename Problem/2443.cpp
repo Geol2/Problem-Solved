@@ -10,18 +10,6 @@ int main() {
 	
 	int num;
 	cin >> num;
-	for (int i = 0; i < num - 1; i++) {
-		for (int j = i + 1; j < num; j++) {
-			cout << " ";
-		}
-		for (int j = i + 1; j > 0; j--) {
-			cout << "*";
-		}
-		for (int j = 0; j < i; j++) {
-			cout << "*";
-		}
-		cout << "\n";
-	}
 	for (int i = 0; i < num; i++) {
 		for (int j = 0; j < i; j++) {
 			cout << " ";
