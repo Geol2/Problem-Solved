@@ -1,4 +1,6 @@
-# BOJ_hub
+# PSCode
+
+# BOJ Problem
 
 - [백준 문제풀이](https://github.com/Geol2/BOJ_hub/tree/main/BOJ_problem)
 
