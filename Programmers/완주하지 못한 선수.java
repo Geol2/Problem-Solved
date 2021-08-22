@@ -11,7 +11,6 @@ public class Programmers {
 			hm.put(key, hm.getOrDefault(key, 0) + 1); 
 			System.out.println(hm.getOrDefault(key, 0) + 1);
 		}
-		System.out.println("°á°ú : " + hm);
+		System.out.println("ê²°ê³¼ : " + hm);
 	}
-
 }
