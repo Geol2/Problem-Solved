@@ -2,27 +2,43 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        int cnt = 0;
         Scanner sc = new Scanner(System.in);
 
-        int testCase = sc.nextInt();
-        int Sum = sc.nextInt();
-        int[] arr = new int[testCase];
-
-        for(int i = 0; i < testCase; i++) {
-            int input = sc.nextInt();
-            arr[i] = input;
+        HashMap<Integer, Integer> cnt = new HashMap<Integer, Integer>();
+        for(int i = 0; i < 100; i+=10) {
+            cnt.put(i, 0);
         }
 
-        for(int i = 0; i < testCase; i++) {
-            for(int j = i+1; j < testCase; j++) {
-                int input_sum = arr[i] + arr[j];
-                if(Sum == input_sum) {
-                    cnt++;
-                }
+        for(int i = 0; i < 100; i+=10) {
+            int num = sc.nextInt();
+            int getValue = cnt.get(num);
+            cnt.put(num, ++getValue);
+        }
+
+        int sum = 0;
+        int value_cnt = 0;
+        for(int i = 0; i < 100; i+=10) {
+            value_cnt = cnt.get(i);
+            sum = sum + i * value_cnt;
+        }
+
+        int max = 0;
+        int tmp = 0;
+        for(int i = 0; i < 100; i+=10) {
+            tmp = cnt.get(i);
+            if (tmp > max) {
+                max = tmp;
             }
-
         }
-         System.out.println(cnt);
+
+        System.out.println(sum/10);
+        for(Map.Entry<Integer, Integer> entry : cnt.entrySet()) {
+            // System.out.println(entry.getKey()+" "+ entry.getValue());
+            if(entry.getValue() == max) {
+                System.out.println(entry.getKey());
+                break;
+            }
+        }
+        sc.close();
     }
 }
