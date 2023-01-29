@@ -17,4 +17,4 @@
 
 - [유형4. 만들 수 없는 금액](https://github.com/Geol2/Problem-Solved/blob/main/%EC%9D%B4%EA%B2%83%EC%9D%B4%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%8B%A4/Greedy/%EC%9C%A0%ED%98%95%204.%20%EB%A7%8C%EB%93%A4%20%EC%88%98%20%EC%97%86%EB%8A%94%20%EA%B8%88%EC%95%A1.md)
 
-- []()
+- [유형5. 볼링공 고르기](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Greedy/유형%205.%20볼링공%20고르기.md)
