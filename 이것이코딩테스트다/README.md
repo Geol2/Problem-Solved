@@ -23,4 +23,8 @@
 
 ## [구현?](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement.md)
 
-- [상하좌우](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement/01.%20상하좌우.md)
+- [상하좌우](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement/01-1.%20상하좌우.md)
+
+- [시각](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement/01-2.%20시각.md)
+
+- [왕실나이트](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement/02.%20왕실의%20나이트.md)
