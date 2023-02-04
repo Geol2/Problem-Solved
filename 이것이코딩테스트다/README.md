@@ -30,3 +30,11 @@
 - [왕실나이트](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement/02.%20왕실의%20나이트.md)
 
 - [게임개발](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement/02.%20게임개발.md)
+
+- [유형 07. 럭키 스트레이트](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement/07.%20럭키%20스트레이트.m)
+
+- [유형 08. 문자열 재정렬](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement/08.%20문자열%20재정렬.m)
+
+- [유형 09. 문자열 압축](https://github.com/Geol2/Problem-Solved/blob/main/이것이코딩테스트다/Implement/09.%20문자열%20압축.m)
+
+- [유형 10. 자물쇠와 열쇠]()
