@@ -32,3 +32,7 @@
 *.app
 
 .idea
+
+# java file
+*.java
+*.class
