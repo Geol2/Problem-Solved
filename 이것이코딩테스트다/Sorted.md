@@ -52,10 +52,10 @@
     needSort = [1, 5, 9, 8, 4, 7]
 
     def isSort():
-    for i in range(len(needSort) - 1):
-        if needSort[i] > needSort[i + 1]:
-            return False;
-    return True
+        for i in range(len(needSort) - 1):
+            if needSort[i] > needSort[i + 1]:
+                return False;
+        return True
 
     def sort(needSort):
         flag = isSort()
