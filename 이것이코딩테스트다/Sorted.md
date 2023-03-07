@@ -58,15 +58,15 @@
     return True
 
     def sort(needSort):
-    flag = isSort()
-    if flag:
-        for i in range(len(needSort)):
-            for j in range(i + 1, len(needSort)):
-                if(needSort[i] > needSort[j]):
-                tmp = needSort[i]
-                needSort[i] = needSort[j]
-                needSort[j] = tmp
-    return needSort
+        flag = isSort()
+        if flag:
+            for i in range(len(needSort)):
+                for j in range(i + 1, len(needSort)):
+                    if(needSort[i] > needSort[j]):
+                    tmp = needSort[i]
+                    needSort[i] = needSort[j]
+                    needSort[j] = tmp
+        return needSort
 
     print( sort(needSort) )
     ```
