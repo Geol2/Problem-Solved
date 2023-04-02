@@ -44,3 +44,20 @@ int main() {
 D[i][1] = max(D[i - 2][1], D[i - 2][2]) + S[i];
 D[i][2] = D[i - 1][1] + S[i];
 ```
+
+## 피보나치 유형
+
+```python
+d = [0] * 100
+
+def fibo(x):
+  if x == 1 or x == 2:
+    return 1
+  if d[x] != 0:
+    return d[x]
+  d[x] = fibo(x - 1) + fibo(x - 2)
+  return d[x]
+
+print(fibo(99))
+
+```
