@@ -44,5 +44,3 @@ score = {
 n = int(input())
 print(score[n]['solved'])
 print(score[n]['value'])
-
-##
